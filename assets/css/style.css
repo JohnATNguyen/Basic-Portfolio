@@ -1,0 +1,60 @@
+* {
+	box-sizing: border-box;
+}
+
+header {
+	overflow: auto;
+	background-color: #ffffff;
+	margin-left: 110px;
+	border-bottom: 2px solid #cccccc;
+}
+
+#name {
+	float: left;
+	background-color: #4aaaa5;
+	color: #ffffff;
+}
+
+#links {
+	float: right;
+}
+
+#container {
+	background-image: url("../images/ep_naturalwhite.png");
+	overflow: auto;
+	color: #777777;
+}
+
+#section1 {
+	float: left;
+	width: 650px;
+	margin: 40px 40px 40px 110px;
+	background-color: #ffffff;
+	border: 1.5px solid #dddddd;
+}
+
+#profile_image {
+	float: left;
+	height: 25%;
+	width: 25%;
+}
+#section2 {
+	float: right;
+	width: 270px;
+	background-color: #ffffff;
+	margin: 40px 0px;
+	border: 1.5px solid #dddddd;
+}
+
+.social {
+	width: 20%;
+}
+
+footer {
+	clear: left;
+	background-color: #666666;
+	text-align: center;
+	color: #4aaaa5;
+	border-top: 5px solid #4aaaa5;
+	height: 75px;
+}
